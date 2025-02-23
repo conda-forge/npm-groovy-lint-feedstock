@@ -4,7 +4,7 @@
 
 [project]
 name = "npm-groovy-lint-feedstock"
-version = "3.45.2"
+version = "3.45.4"
 description = "Pixi configuration for conda-forge/npm-groovy-lint-feedstock"
 authors = ["@conda-forge/npm-groovy-lint"]
 channels = ["conda-forge"]
