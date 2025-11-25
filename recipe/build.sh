@@ -18,6 +18,7 @@ tee ${PREFIX}/bin/npm-groovy-lint << EOF
 #!/bin/sh
 exec \${CONDA_PREFIX}/lib/node_modules/npm-groovy-lint/lib/index.js "\$@"
 EOF
+chmod +x ${PREFIX}/bin/npm-groovy-lint
 
 # Create batch wrapper
 tee ${PREFIX}/bin/npm-groovy-lint.cmd << EOF
