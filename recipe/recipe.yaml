@@ -1,5 +1,5 @@
 context:
-  version: "18.0.0"
+  version: "19.0.0"
 
 package:
   name: npm-groovy-lint
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/npm-groovy-lint/-/npm-groovy-lint-${{ version }}.tgz
-  sha256: 6c791528925d714af99f0bb37fcfb780b9e9bc12620a5eb34a911e2f163880da
+  sha256: 0e069f2b113ed97dea86f54569b7996e810b2362bd9efd84501869c846a01397
 
 build:
   number: 0
